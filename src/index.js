@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     const inputValue = document.getElementById('new-task-description').value
     const tasksList = document.getElementById('tasks')
-    taskList.appendChild(`<li>${inputValue}</li>`);
+    tasksList.appendChild(`<li>${inputValue}</li>`);
   });
 });

@@ -5,5 +5,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputValue = document.getElementById('new-task-description').value();
     const tasksList = document.getElementById('tasks')
     taskList.appendChild(`<li>${inputValue}</li>`)
-  })
+  });
 });
